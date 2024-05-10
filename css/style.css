@@ -1,0 +1,283 @@
+/*global start*/
+li {
+  list-style: none;
+}
+
+a,
+button {
+  font-family: "Mulish", sans-serif;
+}
+
+.primary-btn {
+  display: inline-block;
+  background: #ff6704;
+  padding: 9px 40px;
+  border: 1px solid #ff6704;
+}
+.primary-btn a {
+  color: #fff;
+}
+.primary-btn a:hover {
+  color: #121212;
+}
+.primary-btn:hover {
+  background: transparent;
+}
+
+.banner {
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.44);
+  z-index: 0;
+  height: 450px;
+}
+
+.bannertitle {
+  z-index: 1;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: #121212;
+  font-family: "Mulish", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+  color: #fff;
+}
+
+h2 {
+  font-size: 60px;
+  line-height: normal;
+  font-weight: 500;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 1.6rem;
+  font-family: "Oswald", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  color: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/*global end*/
+/*header start*/
+header.site-header {
+  background: transparent;
+  font-size: 18px;
+  padding: 14px 0;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+  transition: 0.3s;
+}
+
+header.site-header.sticky {
+  background: #0C0B0B;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding: 10px 0;
+  position: fixed;
+}
+
+.site-header .site-nav ul li a.active {
+  color: #ff6704;
+}
+
+.site-logo img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.site-nav a {
+  padding: 8px 12px !important;
+  display: inline-block;
+  font-weight: 500;
+  color: #fff;
+}
+.site-nav a:hover {
+  color: #ff6704;
+}
+
+.site-header {
+  padding: 10px 0;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.closed-menu {
+  display: none;
+}
+
+.menu-toggle {
+  display: none !important;
+}
+
+/*header end*/
+/*banner-css-start*/
+section.banner {
+  position: relative;
+  height: 450px;
+  background-image: url(../images/homebanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  margin-top: 50px;
+}
+
+/*banner-css-end*/
+/*footer-css-start*/
+.footer {
+  background: #121212;
+  padding: 50px 0;
+}
+.footer-logo img {
+  max-width: 250px;
+}
+.footer-links h2 {
+  color: #f2fbe9;
+}
+.footer-links h3 {
+  color: #f2fbe9;
+  font-size: 25px;
+}
+.footer-links li a {
+  color: #f2fbe9;
+}
+.footer-links li a:hover {
+  color: #f2fbe9;
+}
+.footer-adresse h2 {
+  color: #f2fbe9;
+}
+.footer-adresse h3 {
+  color: #f2fbe9;
+  font-size: 25px;
+}
+.footer-adresse p {
+  color: #f2fbe9;
+}
+.footer-mails a,
+.footer-mails i {
+  color: #f2fbe9;
+}
+
+.social-signals {
+  padding: 25px 0;
+}
+.social-signals i {
+  color: #f2fbe9;
+  font-size: 24px;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 10px;
+  border: 1px solid #f2fbe9;
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+  transition: 0.3s linear;
+}
+.social-signals i:hover {
+  transform: translateY(-10px);
+  color: #f2fbe9;
+}
+
+/*footer-css-end*/
+/*homebanner-css-start*/
+.homebanner.banner {
+  background-image: url(../images/homebanner.png);
+  height: 600px;
+  position: relative;
+}
+.homebanner.banner::after {
+  height: 600px;
+}
+
+.homecard-content {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.toptext-content {
+  padding: 50px 0;
+}
+
+.toptext {
+  position: relative;
+}
+
+img.img-fluid.homebanner-down {
+  position: absolute;
+  top: -27%;
+  width: 100%;
+  transform: translateY(-27%);
+}
+
+/*homebanner-css-end*/
+
+
+/*# sourceMappingURL=style.css.map */

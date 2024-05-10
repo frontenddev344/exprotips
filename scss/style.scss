@@ -1,0 +1,247 @@
+/*global start*/
+@import 'mixins';
+@import 'variables';
+@import 'typography';
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 1.6rem;
+    font-family: "Oswald", sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus {
+    color: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*global end*/
+
+/*header start*/
+header.site-header {
+    background: transparent;
+    font-size: 18px;
+    padding: 14px 0;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    width: 100%;
+    transition: .3s;
+}
+
+header.site-header.sticky {
+    background: $clr-black;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding: 10px 0;
+    position: fixed;
+}
+
+.site-header .site-nav ul li a.active {
+    color: $clr-orange;
+}
+
+.site-logo img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.site-nav a {
+    padding: 8px 12px !important;
+    display: inline-block;
+    font-weight: 500;
+    color: $clr-white;
+
+    &:hover {
+        color: $clr-orange;
+    }
+}
+
+
+.site-header {
+    padding: 10px 0;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.closed-menu {
+    display: none;
+}
+
+.menu-toggle {
+    display: none !important;
+}
+
+
+
+/*header end*/
+
+/*banner-css-start*/
+section.banner {
+    position: relative;
+    height: 450px;
+    background-image: url(../images/homebanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+/*banner-css-end*/
+
+/*footer-css-start*/
+.footer {
+    background: $clr-blackish;
+    padding: 50px 0;
+
+    &-logo {
+        img {
+            max-width: 250px;
+        }
+    }
+
+    &-links {
+        h2 {
+            color: $clr-pista;
+        }
+
+        h3 {
+            color: $clr-pista;
+            font-size: 25px;
+        }
+
+        li a {
+            color: $clr-pista;
+
+            &:hover {
+                color: $clr-pista;
+            }
+        }
+    }
+
+    &-adresse {
+        h2 {
+            color: $clr-pista;
+        }
+
+        h3 {
+            color: $clr-pista;
+            font-size: 25px;
+        }
+
+        p {
+            color: $clr-pista;
+        }
+    }
+
+    &-mails {
+
+        a,
+        i {
+            color: $clr-pista;
+        }
+
+    }
+}
+
+.social-signals {
+    padding: 25px 0;
+
+    i {
+        color: $clr-pista;
+        font-size: 24px;
+        text-align: center;
+        line-height: 40px;
+        margin: 0 10px;
+        border: 1px solid $clr-pista;
+        border-radius: 30px;
+        height: 40px;
+        width: 40px;
+        transition: .3s linear;
+
+        &:hover {
+            transform: translateY(-10px);
+            color: $clr-pista;
+        }
+    }
+}
+
+/*footer-css-end*/
+
+/*homebanner-css-start*/
+.homebanner.banner {
+    background-image: url(../images/homebanner.png);
+    height: 600px;
+    position: relative;
+
+    &::after {
+        height: 600px;
+    }
+}
+
+.homecard-content {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.toptext-content {
+    padding: 50px 0;
+}
+
+.toptext {
+    position: relative;
+}
+
+img.img-fluid.homebanner-down {
+    position: absolute;
+    top: -27%;
+    width: 100%;
+    transform: translateY(-27%);
+}
+
+/*homebanner-css-end*/
+/*# sourceMappingURL=style.css.map */
