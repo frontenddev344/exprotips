@@ -49,6 +49,10 @@ button {
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
+
+    @include mq(xl) {
+        width: 100%;
+    }
 }
 
 p {
@@ -66,6 +70,10 @@ h1 {
     font-weight: 500;
     color: $clr-white;
     text-align: center;
+
+    @include mq(xl) {
+        font-size: 24px;
+    }
 }
 
 h2 {

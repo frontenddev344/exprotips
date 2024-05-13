@@ -45,6 +45,11 @@ button {
   left: 50%;
   top: 50%;
 }
+@media screen and (max-width: 1024px) {
+  .bannertitle {
+    width: 100%;
+  }
+}
 
 p {
   font-size: 16px;
@@ -60,6 +65,11 @@ h1 {
   font-weight: 500;
   color: #fff;
   text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 24px;
+  }
 }
 
 h2 {
@@ -315,12 +325,105 @@ section.banner {
 
 /*terms-conditon-end/
 
+/*contact-css-start*/
+.contactbanner.banner {
+  background-image: url(../images/contactbanner.avif);
+}
 
+.form-main .about_us_content {
+  margin: 0 0 30px 0;
+}
+.form-main .about_us_content h2 {
+  margin: 30px 0 !important;
+}
+
+.form-main .form-group {
+  margin-bottom: 2rem;
+}
+
+.form-main .input-control {
+  display: block;
+  width: 100%;
+  height: 4rem;
+  border: 1px solid #121212;
+  padding: 2rem 2rem;
+  background: transparent;
+  color: #271910;
+}
+
+.form-main .input-control:focus-visible {
+  outline: none;
+}
+
+.form-main textarea.input-control {
+  resize: none;
+  height: auto;
+}
+
+.form-main .form-group .submit-btn {
+  background: #271910;
+  border: 1px solid #271910;
+  transition: all 0.2s linear;
+  display: inline-block;
+  padding: 0.8rem 4rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+.form-main .form-group .submit-btn:hover {
+  background-color: transparent;
+  color: #271910;
+}
+
+.form-main .form-group label {
+  display: inline-block;
+  padding-bottom: 5px;
+  color: #121212;
+  transition: all 0.2s linear;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+/*contact-css-end*/
+/*cookie start*/
+.cookie-alert {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 !important;
+  z-index: 999;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 500ms ease-out;
+  left: 0;
+}
+
+.cookie-alert.show {
+  opacity: 1;
+  transform: translateY(0%);
+  transition-delay: 1000ms;
+}
+
+a.btn.btn-primary.accept-cookies {
+  background: #271910;
+  padding: 6px 22px;
+  font-size: 20px;
+  border: 1px solid #271910;
+}
+a.btn.btn-primary.accept-cookies:hover {
+  background: transparent;
+  color: #271910;
+}
+
+/*cookie end*/
 /*homebanner-css-start*/
 .homebanner.banner {
   background-image: url(../images/homebanner.png);
-  height: 860px;
+  height: 600px;
   position: relative;
+}
+.homebanner.banner::after {
+  height: 600px;
 }
 
 .homecard-content {
@@ -337,6 +440,72 @@ section.banner {
 }
 
 /*homebanner-css-end*/
+/*About-css-start*/
+.aboutbanner.banner {
+  background-image: url(../images/aboutbanner.jpg);
+  position: relative;
+}
+
+.item {
+  background: rgba(255, 103, 4, 0.6901960784);
+  padding: 40px 20px;
+  transition: 0.5s;
+  position: relative;
+  aspect-ratio: 1/0.5;
+  z-index: 1;
+  margin-bottom: 30px;
+  line-height: 1;
+  text-align: center;
+  height: auto;
+  width: 100%;
+}
+.item img {
+  max-width: 64px;
+  transition: 0.3s;
+}
+.item h5 {
+  font-size: 24px;
+  color: #271910;
+  margin: 10px 0;
+}
+.item p {
+  margin: 0 auto;
+  color: #271910;
+  max-width: 65%;
+}
+
+.item span {
+  font-size: 45px;
+  color: rgba(255, 103, 4, 0.6901960784);
+  line-height: 1;
+  margin-bottom: 10px;
+  display: inline-block;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.item:hover span {
+  color: #271910;
+}
+
+.item .shape {
+  position: absolute;
+  opacity: 0.03;
+  z-index: -1;
+  bottom: 15px;
+  left: 120px;
+}
+
+.item .shape span {
+  font-size: 140px;
+  color: #271910;
+}
+
+.item:hover img {
+  transform: rotateY(180deg);
+}
+
+/*About-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */
