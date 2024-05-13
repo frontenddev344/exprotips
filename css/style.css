@@ -10,9 +10,10 @@ button {
 
 .primary-btn {
   display: inline-block;
-  background: #ff6704;
+  background: rgba(255, 103, 4, 0.6901960784);
   padding: 9px 40px;
-  border: 1px solid #ff6704;
+  border: 1px solid rgba(255, 103, 4, 0.6901960784);
+  color: #fff;
 }
 .primary-btn a {
   color: #fff;
@@ -22,6 +23,7 @@ button {
 }
 .primary-btn:hover {
   background: transparent;
+  color: #121212;
 }
 
 .banner {
@@ -135,7 +137,7 @@ header.site-header.sticky {
 }
 
 .site-header .site-nav ul li a.active {
-  color: #ff6704;
+  color: rgba(255, 103, 4, 0.6901960784);
 }
 
 .site-logo img {
@@ -150,7 +152,7 @@ header.site-header.sticky {
   color: #fff;
 }
 .site-nav a:hover {
-  color: #ff6704;
+  color: rgba(255, 103, 4, 0.6901960784);
 }
 
 .site-header {
@@ -192,7 +194,7 @@ section.banner {
 /*banner-css-end*/
 /*footer-css-start*/
 .footer {
-  background: #121212;
+  background: #271910;
   padding: 50px 0;
 }
 .footer-logo img {

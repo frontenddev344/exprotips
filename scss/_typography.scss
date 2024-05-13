@@ -15,6 +15,7 @@ button {
     background: $clr-orange;
     padding: 9px 40px;
     border: 1px solid $clr-orange;
+    color: $clr-white;
 
     a {
         color: $clr-white;
@@ -26,6 +27,7 @@ button {
 
     &:hover {
         background: transparent;
+        color: $clr-blackish;
     }
 }
 
