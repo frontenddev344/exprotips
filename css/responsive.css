@@ -11,18 +11,14 @@ button {
   display: inline-block;
   background: rgba(255, 103, 4, 0.6901960784);
   padding: 9px 40px;
-  border: 1px solid rgba(255, 103, 4, 0.6901960784);
-  color: #fff;
+  border: 2px solid rgba(255, 103, 4, 0.6901960784);
 }
 .primary-btn a {
-  color: #fff;
-}
-.primary-btn a:hover {
-  color: #121212;
+  color: #271910;
 }
 .primary-btn:hover {
   background: transparent;
-  color: #121212;
+  color: #271910;
 }
 
 .banner {
@@ -58,15 +54,25 @@ p {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 35px;
+  line-height: normal;
   font-weight: 500;
   color: #fff;
+  text-align: center;
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 48px;
   line-height: normal;
   font-weight: 500;
+  color: #271910;
+}
+
+h4 {
+  font-size: 28px;
+  line-height: normal;
+  font-weight: 500;
+  color: #271910;
 }
 
 /*media queries start*/

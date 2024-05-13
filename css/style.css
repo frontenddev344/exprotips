@@ -12,18 +12,14 @@ button {
   display: inline-block;
   background: rgba(255, 103, 4, 0.6901960784);
   padding: 9px 40px;
-  border: 1px solid rgba(255, 103, 4, 0.6901960784);
-  color: #fff;
+  border: 2px solid rgba(255, 103, 4, 0.6901960784);
 }
 .primary-btn a {
-  color: #fff;
-}
-.primary-btn a:hover {
-  color: #121212;
+  color: #271910;
 }
 .primary-btn:hover {
   background: transparent;
-  color: #121212;
+  color: #271910;
 }
 
 .banner {
@@ -59,15 +55,25 @@ p {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 35px;
+  line-height: normal;
   font-weight: 500;
   color: #fff;
+  text-align: center;
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 48px;
   line-height: normal;
   font-weight: 500;
+  color: #271910;
+}
+
+h4 {
+  font-size: 28px;
+  line-height: normal;
+  font-weight: 500;
+  color: #271910;
 }
 
 * {
@@ -201,23 +207,23 @@ section.banner {
   max-width: 250px;
 }
 .footer-links h2 {
-  color: #f2fbe9;
+  color: rgba(255, 103, 4, 0.6901960784);
 }
 .footer-links h3 {
-  color: #f2fbe9;
+  color: rgba(255, 103, 4, 0.6901960784);
   font-size: 25px;
 }
 .footer-links li a {
   color: #f2fbe9;
 }
 .footer-links li a:hover {
-  color: #f2fbe9;
+  color: rgba(255, 103, 4, 0.6901960784);
 }
 .footer-adresse h2 {
-  color: #f2fbe9;
+  color: rgba(255, 103, 4, 0.6901960784);
 }
 .footer-adresse h3 {
-  color: #f2fbe9;
+  color: rgba(255, 103, 4, 0.6901960784);
   font-size: 25px;
 }
 .footer-adresse p {
@@ -230,6 +236,7 @@ section.banner {
 
 .social-signals {
   padding: 25px 0;
+  cursor: pointer;
 }
 .social-signals i {
   color: #f2fbe9;
@@ -245,18 +252,73 @@ section.banner {
 }
 .social-signals i:hover {
   transform: translateY(-10px);
-  color: #f2fbe9;
+  color: rgba(255, 103, 4, 0.6901960784);
 }
 
 /*footer-css-end*/
+/*privacy-policy start*/
+.privacy__section.banner {
+  background-image: url(../images/privacybanner.jpg);
+  text-align: center;
+  position: relative;
+  background-position: top;
+}
+
+.privacy-policy {
+  padding: 40px 0;
+}
+.privacy-policy .content-wrap h4 {
+  color: rgba(255, 103, 4, 0.6901960784);
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.privacy-policy .content-wrap p {
+  color: #271910;
+  font-size: 15px;
+}
+.privacy-policy .content-wrap li {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  color: #271910;
+}
+
+/*privacy-policy end*/
+/*terms-conditon start*/
+.terms__section.banner {
+  background-image: url(../images/termsbanner.jpg);
+  text-align: center;
+  position: relative;
+  background-position: top;
+}
+
+.terms {
+  padding: 40px 0;
+}
+.terms .content-wrap h4 {
+  color: rgba(255, 103, 4, 0.6901960784);
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.terms .content-wrap p {
+  color: #271910;
+  font-size: 15px;
+}
+.terms .content-wrap li {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  color: #271910;
+}
+
+/*terms-conditon-end/
+
+
 /*homebanner-css-start*/
 .homebanner.banner {
   background-image: url(../images/homebanner.png);
   height: 860px;
   position: relative;
-}
-.homebanner.banner::after {
-  content: none;
 }
 
 .homecard-content {

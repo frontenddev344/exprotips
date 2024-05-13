@@ -91,6 +91,17 @@ header.site-header.sticky {
     }
 }
 
+// img.mainlogo {
+//     display: none;
+// }
+
+// header.site-header.sticky img.mainlogo {
+//     display: block;
+// }
+
+// header.site-header.sticky img.stickylogo {
+//     display: none;
+// }
 
 .site-header {
     padding: 10px 0;
@@ -146,11 +157,11 @@ section.banner {
 
     &-links {
         h2 {
-            color: $clr-pista;
+            color: $clr-orange;
         }
 
         h3 {
-            color: $clr-pista;
+            color: $clr-orange;
             font-size: 25px;
         }
 
@@ -158,18 +169,18 @@ section.banner {
             color: $clr-pista;
 
             &:hover {
-                color: $clr-pista;
+                color: $clr-orange;
             }
         }
     }
 
     &-adresse {
         h2 {
-            color: $clr-pista;
+            color: $clr-orange;
         }
 
         h3 {
-            color: $clr-pista;
+            color: $clr-orange;
             font-size: 25px;
         }
 
@@ -190,6 +201,7 @@ section.banner {
 
 .social-signals {
     padding: 25px 0;
+    cursor: pointer;
 
     i {
         color: $clr-pista;
@@ -205,12 +217,85 @@ section.banner {
 
         &:hover {
             transform: translateY(-10px);
-            color: $clr-pista;
+            color: $clr-orange;
         }
     }
 }
 
 /*footer-css-end*/
+
+/*privacy-policy start*/
+.privacy__section.banner {
+    background-image: url(../images/privacybanner.jpg);
+    text-align: center;
+    position: relative;
+    background-position: top;
+
+}
+
+.privacy-policy {
+    padding: 40px 0;
+
+    .content-wrap {
+        h4 {
+            color: $clr-orange;
+            margin-bottom: 0;
+            font-weight: 400;
+        }
+
+        p {
+            color: $clr-brown;
+            font-size: 15px;
+        }
+
+        li {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: normal;
+            color: $clr-brown;
+        }
+    }
+}
+
+
+
+/*privacy-policy end*/
+
+/*terms-conditon start*/
+.terms__section.banner {
+    background-image: url(../images/termsbanner.jpg);
+    text-align: center;
+    position: relative;
+    background-position: top;
+}
+
+.terms {
+    padding: 40px 0;
+
+    .content-wrap {
+        h4 {
+            color: $clr-orange;
+            margin-bottom: 0;
+            font-weight: 400;
+        }
+
+        p {
+            color: $clr-brown;
+            font-size: 15px;
+        }
+
+        li {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: normal;
+            color: $clr-brown;
+        }
+
+    }
+}
+
+/*terms-conditon-end/
+
 
 /*homebanner-css-start*/
 .homebanner.banner {
@@ -218,9 +303,6 @@ section.banner {
     height: 860px;
     position: relative;
 
-    &::after {
-        content: none;
-    }
 }
 
 .homecard-content {
