@@ -439,6 +439,11 @@ a.btn.btn-primary.accept-cookies:hover {
   position: relative;
 }
 
+.homecard-picture img {
+  height: 200px;
+  object-fit: cover;
+}
+
 /*homebanner-css-end*/
 /*About-css-start*/
 .aboutbanner.banner {
