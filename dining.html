@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <title>Dining</title>
+</head>
+
+<body>
+    <!-- site-header start -->
+    <header class="site-header">
+        <div class="container">
+            <div class="site-logo">
+                <a href="index.html"><img src="images/header-logo.png" alt="site-logo" class="mainlogo"></a>
+                <!-- <a href="index.html"><img src="images/stickylogo-header.png" alt="site-logo" class="stickylogo"></a> -->
+            </div>
+
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hotels.html">Hotels
+                        </a></li>
+                    <li><a href="dining.html" class="menu active">Dining </a></li>
+                    <li><a href="nightlife.html">Nightlife </a></li>
+                    <li><a href="entertainment.html">Entertainment </a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="closed-menu">
+                        <a href="#">×</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="menu-toggle">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="bar-3"></div>
+            </div>
+
+
+        </div>
+    </header>
+    <!-- site header end -->
+
+    <!-- site contactbanner start -->
+    <div class="diningbanner banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="bannertitle">
+                        <h1>Dining</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- site contactbanner end -->
+
+    <!-- site toptext start -->
+    <div class="toptext">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="toptext-content">
+                        <p>Las Vegas provides a culinary scene like no other, with award-winning chefs from around the
+                            globe showcasing their talents in the city's diverse array of dining establishments. From
+                            authentic Italian trattorias to upscale sushi bars and vibrant Mexican cantinas, Las Vegas
+                            offers a perfect blend of international cuisines to suit every palate.With options ranging
+                            from casual eateries to fine dining establishments, there's something to satisfy every
+                            cravings. Beyond the glitz and glamour of the Strip, Las Vegas is home to a treasure trove
+                            of hidden culinary gems waiting to be discovered. Browse our curated lists of top
+                            restaurants, read expert reviews and recommendations, and find exclusive deals and discounts
+                            to help you dine like a VIP.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- site toptext done -->
+
+
+    <!-- site footer start -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="images/header-logo.png" alt="footerlogo" class="img-fluid"></a>
+                    </div>
+                    <div class="social-signals">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="footer-links">
+                        <h3>Menu</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="hotels.html">Hotels
+                                </a></li>
+                            <li><a href="dining.html">Dining </a></li>
+                            <li><a href="nightlife.html">Nightlife </a></li>
+                            <li><a href="entertainment.html">Entertainment </a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="terms-conditions.html">Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="footer-adresse">
+                        <h3>Email</h3>
+                        <div class="footer-mails">
+                            <div class="mails-names">
+                                <a href="mailto:info@exprotips.com ">info@exprotips.com </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- site footer end -->
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $(".menu-toggle").click(function () {
+                $("body").addClass("toggle");
+            });
+        });
+
+        $(document).ready(function () {
+            $(".closed-menu").click(function () {
+                $("body").removeClass("toggle");
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var header = $("header");
+                header.toggleClass("sticky", $(window).scrollTop() > 0);
+            });
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
