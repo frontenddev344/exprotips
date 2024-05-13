@@ -300,7 +300,6 @@ section.banner {
   background-image: url(../images/termsbanner.jpg);
   text-align: center;
   position: relative;
-  background-position: top;
 }
 
 .terms {
@@ -328,6 +327,7 @@ section.banner {
 /*contact-css-start*/
 .contactbanner.banner {
   background-image: url(../images/contactbanner.avif);
+  position: relative;
 }
 
 .form-main .about_us_content {
