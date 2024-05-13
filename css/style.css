@@ -128,7 +128,7 @@ header.site-header {
 }
 
 header.site-header.sticky {
-  background: #0C0B0B;
+  background: #271910;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   padding: 10px 0;
   position: fixed;
@@ -250,11 +250,11 @@ section.banner {
 /*homebanner-css-start*/
 .homebanner.banner {
   background-image: url(../images/homebanner.png);
-  height: 600px;
+  height: 860px;
   position: relative;
 }
 .homebanner.banner::after {
-  height: 600px;
+  content: none;
 }
 
 .homecard-content {
@@ -268,13 +268,6 @@ section.banner {
 
 .toptext {
   position: relative;
-}
-
-img.img-fluid.homebanner-down {
-  position: absolute;
-  top: -27%;
-  width: 100%;
-  transform: translateY(-27%);
 }
 
 /*homebanner-css-end*/

@@ -65,7 +65,7 @@ header.site-header {
 }
 
 header.site-header.sticky {
-    background: $clr-black;
+    background: $clr-brown;
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
     padding: 10px 0;
     position: fixed;
@@ -215,11 +215,11 @@ section.banner {
 /*homebanner-css-start*/
 .homebanner.banner {
     background-image: url(../images/homebanner.png);
-    height: 600px;
+    height: 860px;
     position: relative;
 
     &::after {
-        height: 600px;
+        content: none;
     }
 }
 
@@ -236,12 +236,6 @@ section.banner {
     position: relative;
 }
 
-img.img-fluid.homebanner-down {
-    position: absolute;
-    top: -27%;
-    width: 100%;
-    transform: translateY(-27%);
-}
 
 /*homebanner-css-end*/
 /*# sourceMappingURL=style.css.map */
