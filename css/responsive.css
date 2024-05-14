@@ -84,6 +84,11 @@ h4 {
   font-weight: 500;
   color: #271910;
 }
+@media screen and (max-width: 768px) {
+  h4 {
+    font-size: 21px;
+  }
+}
 
 /*media queries start*/
 @media screen and (max-width: 1199px) {
@@ -235,6 +240,11 @@ h4 {
   nav.site-nav {
     max-width: unset;
     margin: unset;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hotelcard__part {
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 575px) {

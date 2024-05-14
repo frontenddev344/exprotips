@@ -85,6 +85,11 @@ h4 {
   font-weight: 500;
   color: #271910;
 }
+@media screen and (max-width: 768px) {
+  h4 {
+    font-size: 21px;
+  }
+}
 
 * {
   box-sizing: border-box;
@@ -515,6 +520,71 @@ a.btn.btn-primary.accept-cookies:hover {
 .diningbanner.banner {
   background-image: url(../images/Diningbanner.jpg);
   position: relative;
+}
+
+section.endtext {
+  padding: 50px 0;
+}
+
+.hotelcard p {
+  color: #121212;
+  font-size: 16px;
+  line-height: 25px;
+  margin: 30px 0;
+}
+.hotelcard__picture img {
+  max-width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+.hotelcard__part {
+  max-width: 100%;
+  padding: 30px 0;
+}
+.hotelcard__part h3 {
+  border-bottom: 1px solid rgba(255, 103, 4, 0.6901960784);
+}
+.hotelcard__part h4 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.hotelcard__main {
+  display: flex;
+  gap: 20px;
+}
+
+.hotel-btn a {
+  display: inline-block;
+  background: rgba(255, 103, 4, 0.6901960784);
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 25px;
+  border: 1px solid rgba(255, 103, 4, 0.6901960784);
+}
+.hotel-btn a:hover {
+  border: 1px solid rgba(255, 103, 4, 0.6901960784);
+  background-color: transparent;
+  color: rgba(255, 103, 4, 0.6901960784);
+}
+
+.hotel__numeric {
+  font-size: 30px;
+}
+
+.homecard__text.hotel {
+  padding-bottom: 30px;
+}
+
+.end__content.hotely h3 {
+  margin: 0 0 20px;
+}
+.end__content.hotely p {
+  margin-top: 0;
+}
+
+.end__content.hotely {
+  padding: 30px 0;
 }
 
 /*Dining-css-end*/

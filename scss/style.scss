@@ -504,6 +504,84 @@ a.btn.btn-primary.accept-cookies {
     position: relative;
 }
 
+section.endtext {
+    padding: 50px 0;
+}
+
+.hotelcard {
+    p {
+        color: $clr-blackish ;
+        font-size: 16px;
+        line-height: 25px;
+        margin: 30px 0;
+    }
+
+    &__picture {
+        img {
+            max-width: 100%;
+            height: 450px;
+            object-fit: cover;
+        }
+    }
+
+    &__part {
+        max-width: 100%;
+        padding: 30px 0;
+
+        h3 {
+            border-bottom: 1px solid $clr-orange;
+        }
+
+        h4 {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+    }
+
+    &__main {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+.hotel-btn a {
+    display: inline-block;
+    background: $clr-orange;
+    color: $clr-white;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 25px;
+    border: 1px solid $clr-orange;
+
+    &:hover {
+        border: 1px solid $clr-orange;
+        background-color: transparent;
+        color: $clr-orange;
+    }
+}
+
+.hotel__numeric {
+    font-size: 30px;
+}
+
+.homecard__text.hotel {
+    padding-bottom: 30px;
+}
+
+.end__content.hotely {
+    h3 {
+        margin: 0 0 20px;
+    }
+
+    p {
+        margin-top: 0;
+    }
+}
+
+.end__content.hotely {
+    padding: 30px 0;
+}
+
 /*Dining-css-end*/
 
 

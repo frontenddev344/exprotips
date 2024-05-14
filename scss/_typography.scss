@@ -88,4 +88,8 @@ h4 {
     line-height: normal;
     font-weight: 500;
     color: $clr-brown;
+
+    @include mq(md) {
+        font-size: 21px;
+    }
 }
