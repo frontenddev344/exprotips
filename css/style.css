@@ -664,6 +664,13 @@ section.endtext {
 }
 
 /*entertainment-css-end*/
+/*hotel-css-start*/
+.hotelbanner.banner {
+  background-image: url(../images/hotelsbanner.jpeg);
+  position: relative;
+}
+
+/*hotel-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */
