@@ -541,9 +541,6 @@ section.endtext {
   max-width: 100%;
   padding: 30px 0;
 }
-.hotelcard__part h3 {
-  border-bottom: 1px solid rgba(255, 103, 4, 0.6901960784);
-}
 .hotelcard__part h4 {
   font-size: 20px;
   margin-top: 10px;
@@ -653,6 +650,20 @@ section.endtext {
 
 /*End Faq css*/
 /*Dining-css-end*/
+/*nightlife-css-start*/
+.nightlifebanner.banner {
+  background-image: url(../images/nightlifebanner.jpg);
+  position: relative;
+}
+
+/*nightlife-css-end*/
+/*entertainment-css-start*/
+.entertainmentbanner.banner {
+  background-image: url(../images/entertainmentbanner.jpeg);
+  position: relative;
+}
+
+/*entertainment-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */
