@@ -222,6 +222,17 @@ section.banner {
     }
 }
 
+.copyright-text {
+    text-align: center;
+    border-top: 1px solid $clr-white;
+    margin-top: 20px;
+
+    p {
+        color: $clr-white;
+        margin-top: 20px;
+    }
+}
+
 /*footer-css-end*/
 
 /*privacy-policy start*/
