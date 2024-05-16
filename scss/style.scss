@@ -568,7 +568,7 @@ section.endtext {
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         gap: 20px;
         align-items: center !important;
-        padding: 0 18px;
+        padding: 15px;
     }
 }
 
@@ -718,6 +718,26 @@ section.endtext {
     position: relative;
 }
 
+.nightlet .hotelcard__main {
+    box-shadow: none;
+}
+
+.nightlet .hotelcard__picture {
+    width: 100%;
+}
+
+.nightlet .hotelcard__part {
+    width: 100%;
+}
+
+.nightlet .hotel-btn {
+    width: 100%;
+    justify-content: start;
+}
+
+.nightlet .hotelcard__main {
+    padding: 0px;
+}
 
 /*hotel-css-end*/
 
