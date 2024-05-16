@@ -555,16 +555,18 @@ section.endtext {
   color: #121212;
   font-size: 16px;
   line-height: 25px;
-  margin: 30px 0;
+}
+.hotelcard__picture {
+  width: 30%;
 }
 .hotelcard__picture img {
-  max-width: 100%;
-  height: 450px;
+  height: 210px;
   object-fit: cover;
 }
 .hotelcard__part {
   max-width: 100%;
-  padding: 30px 0;
+  width: 60%;
+  padding: 15px 0;
 }
 .hotelcard__part h4 {
   font-size: 20px;
@@ -572,7 +574,16 @@ section.endtext {
 }
 .hotelcard__main {
   display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   gap: 20px;
+  align-items: center !important;
+  padding: 0 18px;
+}
+
+.hotel-btn {
+  width: 30%;
+  display: flex;
+  justify-content: center;
 }
 
 .hotel-btn a {
@@ -607,6 +618,18 @@ section.endtext {
 
 .end__content.hotely {
   padding: 30px 0;
+}
+
+.hotelcard__picture {
+  width: 40%;
+}
+
+.hotelcard__grid {
+  gap: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center !important;
+  margin-bottom: 20px;
 }
 
 /*Start Faq css*/

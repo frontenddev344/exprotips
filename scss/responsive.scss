@@ -184,6 +184,25 @@
         max-width: unset;
         margin: unset;
     }
+
+    .hotelcard__main {
+        flex-direction: column;
+    }
+
+    .hotelcard__picture {
+        width: 100%;
+    }
+
+    .hotelcard__part {
+        width: 100%;
+    }
+
+    .hotel-btn {
+        width: 100%;
+        justify-content: start;
+        margin-bottom: 30px;
+    }
+
 }
 
 @media screen and (max-width:767px) {
